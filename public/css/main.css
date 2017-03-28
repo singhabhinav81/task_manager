@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+@import url("http://fonts.googleapis.com/css?family=Lato:300,400");
+
+.banner{
+ background-image: url(../images/background.jpg);
+ background-position: center;
+  background-repeat: no-repeat;
+  top right: no-repeat;
+  background-attachment:fixed;
+  background-size: cover;
+  color: #ffffff;
+  padding: 0em 0em 0em;
+
+}
+.form{
+  color: rgb(224, 113, 58);
+}
+.form-errors{
+  color: rgb(255, 0, 0);
+}
+
+#label{
+  color:rgba(52, 105, 242, 0.84);
+}
+
+#done_label{
+  color: rgb(28, 198, 0);
+}
+#th_color{
+  color: rgba(15, 179, 48, 0.84);l
+}
+a{
+  style:none;
+}
+#contain{
+   position:fixed auto;
+ }
+
+}
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+
+ #social-fb:hover {
+     color: #3B5998;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-gp:hover {
+     color: #d34836;
+ }
+ #social-em:hover {
+     color: #f39c12;
+ }
+ #color_change{
+   color: #3B5998;
+ }
+ .fixed-nav-bar{
+  position:fixed;
+  top: 0;
+ left: 0;
+ z-index: 9999;
+ width: 100%;
+ height: 50px;
+ background-color: #00a087;
+ }
+#particles{height:500px;}
